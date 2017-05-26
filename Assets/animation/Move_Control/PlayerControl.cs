@@ -20,7 +20,6 @@ public class PlayerControl : MonoBehaviour {
     Transform Createpos; // //방향에 따른 박스 생성위치
 
     float directionX = 0;
-    float directionY = 0;
     bool walking = false;
     float Speed = 8.0f; // 걷는 속도
     float J_P = 15.0f; // 점프력
@@ -44,12 +43,9 @@ public class PlayerControl : MonoBehaviour {
         rb = GetComponent<Rigidbody>();  // rigidbody에서 지원하는 AddForce를 사용하기 위해
         
     }
-
-    // Update is called once per frame
-    void Update()
+    void Move()
     {
-
-        if (death == true) // 죽었을때 동작 정지
+        if (death == true || animator.GetCurrentAnimatorStateInfo(0).nameHash == Animator.StringToHash("Base Layer.Active")) // 죽었을때 동작 정지
         {
             return;
         }
@@ -65,22 +61,19 @@ public class PlayerControl : MonoBehaviour {
                 if (h > 0)
                 {
                     directionX = 1;
-                    directionY = 0;
                     facingright = true;
-                    
+
 
                 }
                 else if (h < 0)
                 {
                     directionX = -1;
-                    directionY = 0;
                     facingright = false;
-                    
+
                 }
                 //else if(v>0)
                 //{
                 //    directionX = 0;
-                //    directionY = 1;
                 //}
 
                 else
@@ -94,9 +87,16 @@ public class PlayerControl : MonoBehaviour {
                     //transform.localScale = new Vector3(0.5f * directionX, 0.5f, 1.0f);
                 }
                 animator.SetFloat("DirectionX", directionX);
-                animator.SetFloat("DirectionY", v);
                 animator.SetBool("Walking", walking);
             }
+        }
+    }
+    
+    // Update is called once per frame
+    void Update()
+    {
+
+        Move();
        
              if (jumping == false && Input.GetKeyDown(KeyCode.Space) ) // 스페이스를 Down(누르면)하고 Jumping == false일 떄만 점프동작
              {
@@ -112,19 +112,20 @@ public class PlayerControl : MonoBehaviour {
                 jumping = false;
             }
 
-            Debug.Log("jumping : " + jumping);
+            
 
 
             //Z키 누를시 박스생성 및 생성 지연시간 추가
             if (Input.GetKeyDown(KeyCode.Z))
             {
-                Invoke("CreateBoxFire", 1.0f); // 박스 생성지연 , 시간(1.0f초)
+                Invoke("CreateBoxFire", 2.0f); // 박스 생성지연 , 시간(1.0f초)
                 //GameObject BoxPosition = (GameObject)Instantiate (CreateBox); // Z키를 누르면 박스를 생성
                 //BoxPosition.transform.position = CreateBoxPosition.transform.position; 
                 //CreateBoxFire(); // 아래에 있음
+
             }
         }
-    }
+    
 
     void OnTriggerEnter(Collider other)
     {
@@ -142,16 +143,16 @@ public class PlayerControl : MonoBehaviour {
         if (!facingright)
         {
             //방향조정
-            transform.localScale = new Vector3(0.5f * directionX, 0.5f, 1.0f);
+            transform.localScale = new Vector3(0.6f * directionX, 0.5f, 1.0f);
             //생성위치 조정
-            Instantiate(leftCreateBoxPosition, Createpos.position, Quaternion.identity);  // 캐릭터앞에 ray 쏴서 박스 놓을 공간 확인
+            Instantiate(leftCreateBoxPosition, Createpos.position, Quaternion.identity);  // 캐릭터앞에 ray 쏴서 박스 놓을 공간 확인(아직 안함)
         }
 
         //오른쪽으로 바라볼경우
         if(facingright)
         {
             //방향 조정
-            transform.localScale = new Vector3(0.5f * directionX, 0.5f, 1.0f);
+            transform.localScale = new Vector3(0.6f * directionX, 0.5f, 1.0f);
             //생성 위치 조정
             Instantiate(rightCreateBoxPosition, Createpos.position * directionX, Quaternion.identity);   
 
