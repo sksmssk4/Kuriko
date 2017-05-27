@@ -21,8 +21,8 @@ public class PlayerControl : MonoBehaviour {
 
     float directionX = 0;
     bool walking = false;
-    float Speed = 8.0f; // 걷는 속도
-    float J_P = 15.0f; // 점프력
+    float Speed = 8.0f; // 걷는 속도 8
+    float J_P = 15.0f; // 점프력   15
     bool jumping = false;
    
     bool death;

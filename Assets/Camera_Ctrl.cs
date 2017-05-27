@@ -19,7 +19,7 @@ public class Camera_Ctrl : MonoBehaviour {
         // NewPosition =  kuriko.transform.position + new Vector3(0.0f, 2.9f, -2.6f);
 
 
-        transform.position = new Vector3(Mathf.Clamp(kuriko.transform.position.x, -51.5f, 1.70f), Mathf.Clamp(kuriko.transform.position.y, -16.5f, 1.0f) + 2.9f, kuriko.transform.position.z - 2.6f);
+        transform.position = new Vector3(Mathf.Clamp(kuriko.transform.position.x, -53.5f, 4.3f), Mathf.Clamp(kuriko.transform.position.y, -18.5f, 7.0f) + 2.9f, kuriko.transform.position.z - 2.6f);
 
     }
 }
