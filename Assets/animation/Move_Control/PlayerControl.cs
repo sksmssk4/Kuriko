@@ -45,7 +45,8 @@ public class PlayerControl : MonoBehaviour {
     }
     void Move()
     {
-        if (death == true || animator.GetCurrentAnimatorStateInfo(0).nameHash == Animator.StringToHash("Base Layer.Active")) // 죽었을때 동작 정지
+        // 죽었을때 or 'Active'라는 애니메이션이 애니메이터에서 작동될때 동작정지
+        if (death == true || animator.GetCurrentAnimatorStateInfo(0).nameHash == Animator.StringToHash("Base Layer.Active")) 
         {
             return;
         }
