@@ -1,0 +1,192 @@
+fileFormatVersion: 2
+guid: f8b20d04a1b4c5842833366efc4b3e08
+timeCreated: 1493930724
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: "\uCFE0\uB9AC\uCF54 \uD3C9\uC0C1\uC2DC \uC2A4\uD504\uB77C\uC774\uD2B8
+      2_0"
+    21300002: "\uCFE0\uB9AC\uCF54 \uD3C9\uC0C1\uC2DC \uC2A4\uD504\uB77C\uC774\uD2B8
+      2_1"
+    21300004: LEFT_KURIKO_WAIT5
+    21300006: LEFT_KURIKO_WAIT6
+    21300008: LEFT_KURIKO_WAIT7
+    21300010: LEFT_KURIKO_WAIT8
+    21300012: LEFT_KURIKO_WAIT9
+    21300014: LEFT_KURIKO_WAIT10
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "\uCFE0\uB9AC\uCF54 \uD3C9\uC0C1\uC2DC \uC2A4\uD504\uB77C\uC774\uD2B8
+        2_0"
+      rect:
+        serializedVersion: 2
+        x: 3001
+        y: 780
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uCFE0\uB9AC\uCF54 \uD3C9\uC0C1\uC2DC \uC2A4\uD504\uB77C\uC774\uD2B8
+        2_1"
+      rect:
+        serializedVersion: 2
+        x: 4066
+        y: 661
+        width: 88
+        height: 121
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LEFT_KURIKO_WAIT5
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 110
+        width: 492
+        height: 597
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LEFT_KURIKO_WAIT6
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 115
+        width: 448
+        height: 572
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LEFT_KURIKO_WAIT7
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 100
+        width: 526
+        height: 584
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LEFT_KURIKO_WAIT8
+      rect:
+        serializedVersion: 2
+        x: 1964
+        y: 33
+        width: 687
+        height: 710
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LEFT_KURIKO_WAIT9
+      rect:
+        serializedVersion: 2
+        x: 2662
+        y: 31
+        width: 718
+        height: 732
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: LEFT_KURIKO_WAIT10
+      rect:
+        serializedVersion: 2
+        x: 3543
+        y: 16
+        width: 716
+        height: 729
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
