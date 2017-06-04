@@ -1,0 +1,328 @@
+fileFormatVersion: 2
+guid: 6f6decb0a189c99429b6f8b9557ddec1
+timeCreated: 1496419721
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: "\uC218\uC815\uAD6C \uB300\uAE30\uC0C1\uD0DC(\uC644\uC131)_0"
+    21300002: "\uC218\uC815\uAD6C \uB300\uAE30\uC0C1\uD0DC(\uC644\uC131)_1"
+    21300004: "\uC218\uC815\uAD6C \uB300\uAE30\uC0C1\uD0DC(\uC644\uC131)_2"
+    21300006: "\uC218\uC815\uAD6C \uB300\uAE30\uC0C1\uD0DC(\uC644\uC131)_3"
+    21300008: "\uC218\uC815\uAD6C \uB300\uAE30\uC0C1\uD0DC(\uC644\uC131)_4"
+    21300010: Sujung_Wait0
+    21300012: Sujung_Wait1
+    21300014: Sujung_Wait2
+    21300016: Sujung_Wait3
+    21300018: Sujung_Wait4
+    21300020: Sujung_Wait5
+    21300022: Sujung_Wait6
+    21300024: Sujung_Wait7
+    21300026: Sujung_Wait8
+    21300028: Sujung_Wait9
+    21300030: Sujung_Wait10
+    21300032: Sujung_Wait11
+    21300034: Sujung_Wait12
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uB300\uAE30\uC0C1\uD0DC(\uC644\uC131)_0"
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 698
+        width: 101
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uB300\uAE30\uC0C1\uD0DC(\uC644\uC131)_1"
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 698
+        width: 46
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uB300\uAE30\uC0C1\uD0DC(\uC644\uC131)_2"
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 698
+        width: 115
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uB300\uAE30\uC0C1\uD0DC(\uC644\uC131)_3"
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 698
+        width: 35
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uB300\uAE30\uC0C1\uD0DC(\uC644\uC131)_4"
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 698
+        width: 11
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sujung_Wait0
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 52
+        width: 424
+        height: 597
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sujung_Wait1
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 52
+        width: 421
+        height: 597
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sujung_Wait2
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 52
+        width: 421
+        height: 597
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sujung_Wait3
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 52
+        width: 424
+        height: 597
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sujung_Wait4
+      rect:
+        serializedVersion: 2
+        x: 1831
+        y: 52
+        width: 421
+        height: 597
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sujung_Wait5
+      rect:
+        serializedVersion: 2
+        x: 2275
+        y: 52
+        width: 424
+        height: 597
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sujung_Wait6
+      rect:
+        serializedVersion: 2
+        x: 2711
+        y: 52
+        width: 421
+        height: 597
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sujung_Wait7
+      rect:
+        serializedVersion: 2
+        x: 3166
+        y: 52
+        width: 421
+        height: 597
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sujung_Wait8
+      rect:
+        serializedVersion: 2
+        x: 3599
+        y: 52
+        width: 424
+        height: 597
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sujung_Wait9
+      rect:
+        serializedVersion: 2
+        x: 4032
+        y: 52
+        width: 423
+        height: 597
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sujung_Wait10
+      rect:
+        serializedVersion: 2
+        x: 4479
+        y: 52
+        width: 421
+        height: 597
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sujung_Wait11
+      rect:
+        serializedVersion: 2
+        x: 4928
+        y: 52
+        width: 421
+        height: 597
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sujung_Wait12
+      rect:
+        serializedVersion: 2
+        x: 5396
+        y: 52
+        width: 421
+        height: 597
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

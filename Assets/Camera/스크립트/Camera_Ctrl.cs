@@ -12,15 +12,11 @@ public class Camera_Ctrl : MonoBehaviour {
         kuriko = GameObject.Find("KURIKO");
 		
 	}
-	
-	// Update is called once per frame
+	//카메라 위치 조정
 	void Update () {
-        //x = Mathf.Clamp(x, 0.0f, 10.0f);
-        // NewPosition =  kuriko.transform.position + new Vector3(0.0f, 2.9f, -2.6f);
-
-
-        transform.position = new Vector3(Mathf.Clamp(kuriko.transform.position.x, -51.5f, 2.3f), // x축으로 -53.5f이하 4.3f이상 카메라 못움직이게
-            Mathf.Clamp(kuriko.transform.position.y, -18.5f, 7.0f) + 2.9f, kuriko.transform.position.z - 2.6f);
+      
+        transform.position = new Vector3(Mathf.Clamp(kuriko.transform.position.x, -63.0f, 11.8f), // x축으로 -53.5f이하 4.3f이상 카메라 못움직이게
+            Mathf.Clamp(kuriko.transform.position.y, -18.5f, 0.0f) + 2.9f, kuriko.transform.position.z - 2.6f);
 
     }
 }
