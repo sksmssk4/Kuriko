@@ -1,0 +1,1196 @@
+fileFormatVersion: 2
+guid: 6a2cac4c8c8b64943a0ef693fece34cc
+timeCreated: 1496667901
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_0"
+    21300002: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_1"
+    21300004: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_2"
+    21300006: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_3"
+    21300008: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_4"
+    21300010: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_5"
+    21300012: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_6"
+    21300014: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_7"
+    21300016: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_8"
+    21300018: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_9"
+    21300020: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294__0"
+    21300022: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294__1"
+    21300024: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294__2"
+    21300026: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294__3"
+    21300028: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294__4"
+    21300030: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294__5"
+    21300032: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294__6"
+    21300034: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294__7"
+    21300036: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294__8"
+    21300038: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294__9"
+    21300040: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_20"
+    21300042: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294__10"
+    21300044: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_22"
+    21300046: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_23"
+    21300048: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_24"
+    21300050: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_25"
+    21300052: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_26"
+    21300054: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_27"
+    21300056: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_28"
+    21300058: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_29"
+    21300060: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_30"
+    21300062: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_31"
+    21300064: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_32"
+    21300066: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_33"
+    21300068: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_34"
+    21300070: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_35"
+    21300072: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_36"
+    21300074: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_37"
+    21300076: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_38"
+    21300078: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_39"
+    21300080: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_40"
+    21300082: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_41"
+    21300084: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_42"
+    21300086: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_43"
+    21300088: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_44"
+    21300090: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_45"
+    21300092: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_46"
+    21300094: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294__11"
+    21300096: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_48"
+    21300098: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_49"
+    21300100: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_50"
+    21300102: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_51"
+    21300104: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_52"
+    21300106: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_53"
+    21300108: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_54"
+    21300110: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294__12"
+    21300112: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_56"
+    21300114: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_57"
+    21300116: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294__13"
+    21300118: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_59"
+    21300120: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_60"
+    21300122: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_61"
+    21300124: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_62"
+    21300126: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_63"
+    21300128: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_64"
+    21300130: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_65"
+    21300132: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_66"
+    21300134: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_67"
+    21300136: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_68"
+    21300138: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_69"
+    21300140: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_70"
+    21300142: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_71"
+    21300144: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_72"
+    21300146: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_73"
+    21300148: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_74"
+    21300150: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_75"
+    21300152: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_76"
+    21300154: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_77"
+    21300156: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_78"
+    21300158: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_79"
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_0"
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 879
+        width: 154
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_1"
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 879
+        width: 165
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_2"
+      rect:
+        serializedVersion: 2
+        x: 3215
+        y: 780
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_3"
+      rect:
+        serializedVersion: 2
+        x: 3647
+        y: 779
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_4"
+      rect:
+        serializedVersion: 2
+        x: 4084
+        y: 779
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_5"
+      rect:
+        serializedVersion: 2
+        x: 4545
+        y: 779
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_6"
+      rect:
+        serializedVersion: 2
+        x: 5056
+        y: 780
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_7"
+      rect:
+        serializedVersion: 2
+        x: 5592
+        y: 780
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_8"
+      rect:
+        serializedVersion: 2
+        x: 6086
+        y: 780
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_9"
+      rect:
+        serializedVersion: 2
+        x: 6649
+        y: 782
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294__0"
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 139
+        width: 428
+        height: 600
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294__1"
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 139
+        width: 425
+        height: 601
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294__2"
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 139
+        width: 426
+        height: 600
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294__3"
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 139
+        width: 426
+        height: 601
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294__4"
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 139
+        width: 428
+        height: 600
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294__5"
+      rect:
+        serializedVersion: 2
+        x: 2317
+        y: 139
+        width: 425
+        height: 601
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294__6"
+      rect:
+        serializedVersion: 2
+        x: 2759
+        y: 139
+        width: 425
+        height: 602
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294__7"
+      rect:
+        serializedVersion: 2
+        x: 3191
+        y: 139
+        width: 427
+        height: 602
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294__8"
+      rect:
+        serializedVersion: 2
+        x: 3616
+        y: 139
+        width: 453
+        height: 602
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294__9"
+      rect:
+        serializedVersion: 2
+        x: 4078
+        y: 142
+        width: 483
+        height: 644
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_20"
+      rect:
+        serializedVersion: 2
+        x: 4678
+        y: 674
+        width: 64
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294__10"
+      rect:
+        serializedVersion: 2
+        x: 4576
+        y: 139
+        width: 494
+        height: 650
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_22"
+      rect:
+        serializedVersion: 2
+        x: 4903
+        y: 661
+        width: 64
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_23"
+      rect:
+        serializedVersion: 2
+        x: 5214
+        y: 674
+        width: 64
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_24"
+      rect:
+        serializedVersion: 2
+        x: 5302
+        y: 632
+        width: 80
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_25"
+      rect:
+        serializedVersion: 2
+        x: 5379
+        y: 709
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_26"
+      rect:
+        serializedVersion: 2
+        x: 5386
+        y: 707
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_27"
+      rect:
+        serializedVersion: 2
+        x: 5439
+        y: 661
+        width: 64
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_28"
+      rect:
+        serializedVersion: 2
+        x: 5707
+        y: 674
+        width: 64
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_29"
+      rect:
+        serializedVersion: 2
+        x: 5794
+        y: 660
+        width: 80
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_30"
+      rect:
+        serializedVersion: 2
+        x: 5872
+        y: 710
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_31"
+      rect:
+        serializedVersion: 2
+        x: 5881
+        y: 711
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_32"
+      rect:
+        serializedVersion: 2
+        x: 5931
+        y: 660
+        width: 64
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_33"
+      rect:
+        serializedVersion: 2
+        x: 6270
+        y: 675
+        width: 66
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_34"
+      rect:
+        serializedVersion: 2
+        x: 6357
+        y: 661
+        width: 80
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_35"
+      rect:
+        serializedVersion: 2
+        x: 6436
+        y: 710
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_36"
+      rect:
+        serializedVersion: 2
+        x: 6444
+        y: 711
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_37"
+      rect:
+        serializedVersion: 2
+        x: 6498
+        y: 661
+        width: 63
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_38"
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 665
+        width: 53
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_39"
+      rect:
+        serializedVersion: 2
+        x: 4586
+        y: 594
+        width: 94
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_40"
+      rect:
+        serializedVersion: 2
+        x: 5122
+        y: 594
+        width: 91
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_41"
+      rect:
+        serializedVersion: 2
+        x: 5279
+        y: 646
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_42"
+      rect:
+        serializedVersion: 2
+        x: 5616
+        y: 594
+        width: 90
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_43"
+      rect:
+        serializedVersion: 2
+        x: 5772
+        y: 646
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_44"
+      rect:
+        serializedVersion: 2
+        x: 6179
+        y: 594
+        width: 89
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_45"
+      rect:
+        serializedVersion: 2
+        x: 6337
+        y: 648
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_46"
+      rect:
+        serializedVersion: 2
+        x: 4695
+        y: 605
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294__11"
+      rect:
+        serializedVersion: 2
+        x: 5116
+        y: 138
+        width: 493
+        height: 648
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_48"
+      rect:
+        serializedVersion: 2
+        x: 5724
+        y: 605
+        width: 39
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_49"
+      rect:
+        serializedVersion: 2
+        x: 6287
+        y: 606
+        width: 38
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_50"
+      rect:
+        serializedVersion: 2
+        x: 6361
+        y: 652
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_51"
+      rect:
+        serializedVersion: 2
+        x: 4572
+        y: 489
+        width: 116
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_52"
+      rect:
+        serializedVersion: 2
+        x: 4946
+        y: 571
+        width: 101
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_53"
+      rect:
+        serializedVersion: 2
+        x: 5108
+        y: 489
+        width: 116
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_54"
+      rect:
+        serializedVersion: 2
+        x: 5603
+        y: 489
+        width: 119
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294__12"
+      rect:
+        serializedVersion: 2
+        x: 5603
+        y: 140
+        width: 503
+        height: 658
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_56"
+      rect:
+        serializedVersion: 2
+        x: 5975
+        y: 571
+        width: 102
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_57"
+      rect:
+        serializedVersion: 2
+        x: 6166
+        y: 492
+        width: 114
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294__13"
+      rect:
+        serializedVersion: 2
+        x: 6166
+        y: 140
+        width: 495
+        height: 640
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_59"
+      rect:
+        serializedVersion: 2
+        x: 6540
+        y: 571
+        width: 101
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_60"
+      rect:
+        serializedVersion: 2
+        x: 4595
+        y: 397
+        width: 110
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_61"
+      rect:
+        serializedVersion: 2
+        x: 4960
+        y: 457
+        width: 112
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_62"
+      rect:
+        serializedVersion: 2
+        x: 5623
+        y: 397
+        width: 111
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_63"
+      rect:
+        serializedVersion: 2
+        x: 5955
+        y: 488
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_64"
+      rect:
+        serializedVersion: 2
+        x: 5988
+        y: 457
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_65"
+      rect:
+        serializedVersion: 2
+        x: 6188
+        y: 397
+        width: 112
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_66"
+      rect:
+        serializedVersion: 2
+        x: 6519
+        y: 488
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_67"
+      rect:
+        serializedVersion: 2
+        x: 6552
+        y: 458
+        width: 113
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_68"
+      rect:
+        serializedVersion: 2
+        x: 4682
+        y: 306
+        width: 76
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_69"
+      rect:
+        serializedVersion: 2
+        x: 4962
+        y: 373
+        width: 85
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_70"
+      rect:
+        serializedVersion: 2
+        x: 5710
+        y: 306
+        width: 77
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_71"
+      rect:
+        serializedVersion: 2
+        x: 5932
+        y: 383
+        width: 56
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_72"
+      rect:
+        serializedVersion: 2
+        x: 5992
+        y: 373
+        width: 86
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_73"
+      rect:
+        serializedVersion: 2
+        x: 6275
+        y: 306
+        width: 75
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_74"
+      rect:
+        serializedVersion: 2
+        x: 6496
+        y: 383
+        width: 54
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_75"
+      rect:
+        serializedVersion: 2
+        x: 6555
+        y: 373
+        width: 86
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_76"
+      rect:
+        serializedVersion: 2
+        x: 5898
+        y: 296
+        width: 69
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_77"
+      rect:
+        serializedVersion: 2
+        x: 6464
+        y: 296
+        width: 67
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_78"
+      rect:
+        serializedVersion: 2
+        x: 4957
+        y: 193
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC218\uC815\uAD6C \uAE68\uC9C0\uB294_79"
+      rect:
+        serializedVersion: 2
+        x: 5987
+        y: 193
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

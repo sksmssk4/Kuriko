@@ -87,7 +87,6 @@ public class PlayerControl : MonoBehaviour {
             if (animator)
             {
                 float h = Input.GetAxis("Horizontal");
-                float v = Input.GetAxis("Vertical");
                 walking = true;
                 if (h > 0)
                 {
@@ -121,14 +120,14 @@ public class PlayerControl : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
+        Move(); 
+        Jump();
         //죽을경우
-        if(health <= 0)
+        if (health <= 0)
         {
             Death();
 
         }
-        Move();
-        Jump();
         //Z키 누를시 박스생성 및 생성 지연시간 추가
 
         if (Input.GetKeyDown(KeyCode.Z))
@@ -139,6 +138,12 @@ public class PlayerControl : MonoBehaviour {
             //BoxPosition.transform.position = CreateBoxPosition.transform.position; 
             //CreateBoxFire(); // 아래에 있음
         }
+
+        if (Input.GetKeyDown(KeyCode.X))
+        {
+            Invoke("HeadingFire", 0.9f); // 박스 생성지연 , 시간(1.0f초)
+        }
+
         UpdateHealthbar();
     }
 
@@ -156,11 +161,48 @@ public class PlayerControl : MonoBehaviour {
     //진입상태
     void OnTriggerStay(Collider other)
     {
+        if (other.tag == "Axe")
+        {
+            health -= 0.2f;
+            Death();
+        }
 
+        
+        if (other.tag == "BoggleBoggle")
+        {
+            health -= 0.15f;
+            Death();
+        }
+        
 
+        if (other.tag == "Hand")
+        {
+            health -= 0.1f;
+            Death();
+        }
+
+        UpdateHealthbar();
     }
 
     //박스 생성 위치변화
+    void HeadingFire()
+    {
+        if (death == true)
+        {
+            return;
+        }
+        else
+        {
+            if (!facingright)
+            {
+                transform.Translate(new Vector3(-7.0f, 0.0f, 0.0f)*Time.deltaTime * Speed);
+            }
+            else if (facingright)
+            {
+                transform.Translate(new Vector3(7.0f, 0.0f, 0.0f) * Time.deltaTime * Speed);
+            }
+        }
+    }
     void CreateBoxFire()
     {
         if (death == true)
@@ -173,7 +215,7 @@ public class PlayerControl : MonoBehaviour {
             if (!facingright)
             {
                 //방향조정
-                transform.localScale = new Vector3(0.6f * directionX, 0.5f, 1.0f);
+                transform.localScale = new Vector3(0.6f * directionX, 0.4f, 1.0f);
                 //생성위치 조정
                 Instantiate(leftCreateBoxPosition, Createpos.position, Quaternion.identity);  // 캐릭터앞에 ray 쏴서 박스 놓을 공간 확인
             }
@@ -182,14 +224,12 @@ public class PlayerControl : MonoBehaviour {
             if (facingright)
             {
                 //방향 조정
-                transform.localScale = new Vector3(0.6f * directionX, 0.5f, 1.0f);
+                transform.localScale = new Vector3(0.6f * directionX, 0.4f, 1.0f);
                 //생성 위치 조정
                 Instantiate(rightCreateBoxPosition, Createpos.position * directionX, Quaternion.identity);
-
-
             }
             //위치 재조정
-            transform.localScale = new Vector3(0.5f, 0.5f, 1.0f);
+            transform.localScale = new Vector3(0.4f, 0.4f, 2.0f);
         }
     }
 

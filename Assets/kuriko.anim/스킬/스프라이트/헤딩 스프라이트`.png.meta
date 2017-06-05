@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: dcb7a9793a147de4896a3a87f8f4580a
-timeCreated: 1496057199
+guid: 3077109a8b612f947a2ac354aac74d4c
+timeCreated: 1496684464
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -17,18 +17,18 @@ TextureImporter:
     21300020: "\uD5E4\uB529 \uC2A4\uD504\uB77C\uC774\uD2B8`_10"
     21300022: RIGHT_Heading1
     21300024: "\uD5E4\uB529 \uC2A4\uD504\uB77C\uC774\uD2B8`_12"
-    21300026: RIGHT_Heading3
-    21300028: RIGHT_Heading4
-    21300030: RIGHT_Heading5
-    21300032: RIGHT_Heading6
+    21300026: RIGHT_Heading6
+    21300028: RIGHT_Heading5
+    21300030: RIGHT_Heading4
+    21300032: RIGHT_Heading3
     21300034: RIGHT_Heading8
     21300036: RIGHT_Heading9
     21300038: "\uD5E4\uB529 \uC2A4\uD504\uB77C\uC774\uD2B8`_19"
     21300040: "\uD5E4\uB529 \uC2A4\uD504\uB77C\uC774\uD2B8`_20"
     21300042: RIGHT_Heading0
-    21300044: RIGHT_Heading2
+    21300044: RIGHT_Heading7
     21300046: "\uD5E4\uB529 \uC2A4\uD504\uB77C\uC774\uD2B8`_23"
-    21300048: RIGHT_Heading7
+    21300048: RIGHT_Heading2
     21300050: "\uD5E4\uB529 \uC2A4\uD504\uB77C\uC774\uD2B8`_25"
     21300052: "\uD5E4\uB529 \uC2A4\uD504\uB77C\uC774\uD2B8`_26"
     21300054: "\uD5E4\uB529 \uC2A4\uD504\uB77C\uC774\uD2B8`_27"
@@ -100,6 +100,14 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
   - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
     maxTextureSize: 2048
     textureFormat: -1
     textureCompression: 1
@@ -257,7 +265,7 @@ TextureImporter:
       name: RIGHT_Heading1
       rect:
         serializedVersion: 2
-        x: 1700
+        x: 1703
         y: 141
         width: 467
         height: 605
@@ -280,7 +288,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RIGHT_Heading3
+      name: RIGHT_Heading6
       rect:
         serializedVersion: 2
         x: 2833
@@ -293,7 +301,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RIGHT_Heading4
+      name: RIGHT_Heading5
       rect:
         serializedVersion: 2
         x: 3402
@@ -306,7 +314,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RIGHT_Heading5
+      name: RIGHT_Heading4
       rect:
         serializedVersion: 2
         x: 3915
@@ -319,7 +327,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RIGHT_Heading6
+      name: RIGHT_Heading3
       rect:
         serializedVersion: 2
         x: 4458
@@ -336,7 +344,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 5644
-        y: 144
+        y: 141
         width: 464
         height: 605
       alignment: 7
@@ -397,7 +405,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RIGHT_Heading2
+      name: RIGHT_Heading7
       rect:
         serializedVersion: 2
         x: 2275
@@ -423,7 +431,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: RIGHT_Heading7
+      name: RIGHT_Heading2
       rect:
         serializedVersion: 2
         x: 5069
