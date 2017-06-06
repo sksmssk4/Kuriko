@@ -42,6 +42,7 @@ public class SujungBreak : MonoBehaviour {
             if (HeadTimer > 0)
             {
                 HeadTimer -= Time.deltaTime;
+
             }
 
             else

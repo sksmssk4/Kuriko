@@ -11,6 +11,7 @@ public class PlayerControl : MonoBehaviour {
     public Image currentHealthbar;
     public Text ratioText;
 
+	public Canvas Menu;//인게임메뉴캔버스용
 
     Animator animator;
     Rigidbody rb;
@@ -33,6 +34,7 @@ public class PlayerControl : MonoBehaviour {
     private float hitpoint;
     private float maxHitpoint;
     */
+    bool hit;
     bool death;
     bool facingright; // 위치 인식
 
@@ -42,6 +44,7 @@ public class PlayerControl : MonoBehaviour {
         health = 100.0f; // 체력
         maxhealth = 100.0f;
 
+        hit = false;
         death = false;
         facingright = true;
         Createpos = transform.Find("CreateBoxPosition"); //생성위치 인식하기위해서(좌우 이동시)
@@ -55,6 +58,7 @@ public class PlayerControl : MonoBehaviour {
     }
     void Jump()
     {
+
         // 죽었을때 or 'Active, Heading'라는 애니메이션이 애니메이터에서 작동될때 동작정지 (스킬 사용 동안 점프불가)
         if (death == true || animator.GetCurrentAnimatorStateInfo(0).nameHash == Animator.StringToHash("Base Layer.Active")
             || animator.GetCurrentAnimatorStateInfo(0).nameHash == Animator.StringToHash("Base Layer.Heading"))
@@ -77,13 +81,14 @@ public class PlayerControl : MonoBehaviour {
     }
     void Move()
     {
-        // 죽었을때 or 'Active, Heading'라는 애니메이션이 애니메이터에서 작동될때 동작정지 (스킬 사용 동안 걷기불가)
+        if (transform.position.x >= 28.3f && transform.position.y >= 3.6f)
+            return;
+            // 죽었을때 or 'Active, Heading'라는 애니메이션이 애니메이터에서 작동될때 동작정지 (스킬 사용 동안 걷기불가)
         if (death == true || animator.GetCurrentAnimatorStateInfo(0).nameHash == Animator.StringToHash("Base Layer.Active")
-            || animator.GetCurrentAnimatorStateInfo(0).nameHash == Animator.StringToHash("Base Layer.Heading"))
+        || animator.GetCurrentAnimatorStateInfo(0).nameHash == Animator.StringToHash("Base Layer.Heading"))
         {
             return;
         }
-
         else // 죽지않았을경우 (death == false)
         {
             if (animator)
@@ -128,10 +133,8 @@ public class PlayerControl : MonoBehaviour {
         if (health <= 0)
         {
             Death();
-
         }
         //Z키 누를시 박스생성 및 생성 지연시간 추가
-
         if (Input.GetKeyDown(KeyCode.Z))
         {
             health -= 2.0f;
@@ -146,7 +149,19 @@ public class PlayerControl : MonoBehaviour {
             Invoke("HeadingFire", 0.9f); // 헤딩 시 0.9f 뒤 HeadingFire 
         }
 
+		if (Input.GetKeyDown(KeyCode.Escape))
+		{
+			Time.timeScale = 0;
+			Menu.enabled = true;
+		}
+
         UpdateHealthbar();
+
+        //치트키
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            transform.Translate(new Vector3(40.0f, 20.0f, -0.6f));
+        }
     }
 
     //진입시
@@ -154,14 +169,21 @@ public class PlayerControl : MonoBehaviour {
     {
         if (other.tag == "Enemy")
         {
-            health -= 100;
-            Death();           
+            health -= 100.0f;
+            Hit();
+            Death();
+            Invoke("Endure_Hit", 1);
         }
+
+
         if (other.tag == "Totem")
         {
             health -= 100.0f;
+            Hit();
             Death();
+            Invoke("Endure_Hit", 1);
         }
+
         UpdateHealthbar();
     }
 
@@ -171,21 +193,27 @@ public class PlayerControl : MonoBehaviour {
         if (other.tag == "Axe")
         {
             health -= 0.2f;
+            Hit();
             Death();
+            Invoke("Endure_Hit",1);
         }
 
         
         if (other.tag == "BoggleBoggle")
         {
             health -= 0.15f;
+            Hit();
             Death();
+            Invoke("Endure_Hit", 1);
         }
         
 
         if (other.tag == "Hand")
         {
             health -= 0.1f;
+            Hit();
             Death();
+            Invoke("Endure_Hit", 1);
         }
 
         UpdateHealthbar();
@@ -194,7 +222,7 @@ public class PlayerControl : MonoBehaviour {
     //헤딩 시 전진
     void HeadingFire()
     {
-        if (death == true)
+        if (death == true || hit == true)
         {
             return;
         }
@@ -212,7 +240,7 @@ public class PlayerControl : MonoBehaviour {
     }
     void CreateBoxFire()
     {
-        if (death == true)
+        if (death == true || hit == true)
         {
             return;
         }
@@ -240,7 +268,26 @@ public class PlayerControl : MonoBehaviour {
         }
     }
 
+    //히트함수
 
+    void Hit()
+    { 
+        hit = true;
+        animator.SetBool("Hits", true);
+        if (!facingright)
+        {
+            transform.Translate(new Vector3(5.0f, 0.0f, 0.0f) * Time.deltaTime * Speed);
+        }
+        else if (facingright)
+        {
+            transform.Translate(new Vector3(-5.0f, 0.0f, 0.0f) * Time.deltaTime * Speed);
+        }
+    }
+    void Endure_Hit()
+    {
+        hit = false;
+        animator.SetBool("Hits", false);
+    }
     //데스함수
     void Death()
     {

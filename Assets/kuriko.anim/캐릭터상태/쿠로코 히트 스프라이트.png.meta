@@ -1,12 +1,12 @@
 fileFormatVersion: 2
 guid: 04c98569800782e4890bc5408bab8386
-timeCreated: 1493930421
+timeCreated: 1496760602
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: LEFT_HIT_Sprite0
+    21300000: L_Hit1
     21300002: "\uCFE0\uB85C\uCF54 \uD788\uD2B8 \uC2A4\uD504\uB77C\uC774\uD2B8_1"
-    21300004: LEFT_HIT_Sprite1
+    21300004: L_Hit2
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -81,7 +81,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: LEFT_HIT_Sprite0
+      name: L_Hit1
       rect:
         serializedVersion: 2
         x: 11
@@ -107,7 +107,7 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: LEFT_HIT_Sprite1
+      name: L_Hit2
       rect:
         serializedVersion: 2
         x: 303

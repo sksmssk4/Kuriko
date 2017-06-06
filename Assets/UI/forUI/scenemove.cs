@@ -32,4 +32,11 @@ public class scenemove : MonoBehaviour {
 		SceneManager.LoadScene ("title");
 
 	}
+
+	public void Endgame()
+	{
+		Application.Quit ();
+
+	}
+
 }
