@@ -68,6 +68,5 @@ public class SujungBreak : MonoBehaviour {
             animator.SetBool("Breaking", true);
             DestroyObject(gameObject, 1.2f);
         }
-
     }
 }

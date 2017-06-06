@@ -55,8 +55,9 @@ public class PlayerControl : MonoBehaviour {
     }
     void Jump()
     {
-        // 죽었을때 or 'Active'라는 애니메이션이 애니메이터에서 작동될때 동작정지
-        if (death == true || animator.GetCurrentAnimatorStateInfo(0).nameHash == Animator.StringToHash("Base Layer.Active"))
+        // 죽었을때 or 'Active, Heading'라는 애니메이션이 애니메이터에서 작동될때 동작정지 (스킬 사용 동안 점프불가)
+        if (death == true || animator.GetCurrentAnimatorStateInfo(0).nameHash == Animator.StringToHash("Base Layer.Active")
+            || animator.GetCurrentAnimatorStateInfo(0).nameHash == Animator.StringToHash("Base Layer.Heading"))
             return;
         else // 아닐 때
         {
@@ -76,8 +77,9 @@ public class PlayerControl : MonoBehaviour {
     }
     void Move()
     {
-        // 죽었을때 or 'Active'라는 애니메이션이 애니메이터에서 작동될때 동작정지
-        if (death == true || animator.GetCurrentAnimatorStateInfo(0).nameHash == Animator.StringToHash("Base Layer.Active")) 
+        // 죽었을때 or 'Active, Heading'라는 애니메이션이 애니메이터에서 작동될때 동작정지 (스킬 사용 동안 걷기불가)
+        if (death == true || animator.GetCurrentAnimatorStateInfo(0).nameHash == Animator.StringToHash("Base Layer.Active")
+            || animator.GetCurrentAnimatorStateInfo(0).nameHash == Animator.StringToHash("Base Layer.Heading"))
         {
             return;
         }
@@ -141,7 +143,7 @@ public class PlayerControl : MonoBehaviour {
 
         if (Input.GetKeyDown(KeyCode.X))
         {
-            Invoke("HeadingFire", 0.9f); // 박스 생성지연 , 시간(1.0f초)
+            Invoke("HeadingFire", 0.9f); // 헤딩 시 0.9f 뒤 HeadingFire 
         }
 
         UpdateHealthbar();
@@ -154,6 +156,11 @@ public class PlayerControl : MonoBehaviour {
         {
             health -= 100;
             Death();           
+        }
+        if (other.tag == "Totem")
+        {
+            health -= 100.0f;
+            Death();
         }
         UpdateHealthbar();
     }
@@ -184,7 +191,7 @@ public class PlayerControl : MonoBehaviour {
         UpdateHealthbar();
     }
 
-    //박스 생성 위치변화
+    //헤딩 시 전진
     void HeadingFire()
     {
         if (death == true)
