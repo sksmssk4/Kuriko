@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class SujungBreak : MonoBehaviour {
 
+    private AudioSource audio_Break;
+    public AudioClip audio_Breaking;
+
     Animator animator;
     Rigidbody rb;
     GameObject Sujung;
 
 
     public Animator anim; // 헤딩액티브
-
     public bool Heading;
-
     public float HeadTimer = 0;
     public float HeadCd = 2f;
 
@@ -26,7 +27,7 @@ public class SujungBreak : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-
+        this.audio_Break = this.gameObject.AddComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -36,6 +37,7 @@ public class SujungBreak : MonoBehaviour {
         {
             Heading = true;
             HeadTimer = HeadCd;
+
         }
         if (Heading)
         {
@@ -64,10 +66,14 @@ public class SujungBreak : MonoBehaviour {
     */
     void OnTriggerStay(Collider other) // 충돌박스 내부에 있을경우 (Enter)는 들어가는 즉시 이고 Stay는 박스안에 머무를경우
     {
+        
         if (other.tag == "Kuriko" && Heading == true)
         {
             animator.SetBool("Breaking", true);
-            DestroyObject(gameObject, 1.2f);
+            DestroyObject(gameObject, 3.0f);
+            this.audio_Break.clip = this.audio_Breaking;
+            this.audio_Break.loop = false;
+            this.audio_Break.Play();
         }
     }
 }

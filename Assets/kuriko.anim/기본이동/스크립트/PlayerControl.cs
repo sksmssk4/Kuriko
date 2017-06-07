@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class PlayerControl : MonoBehaviour {
 
     private AudioSource audio_jump; // 오디오소스에 점프소리를 읽음
-    public AudioClip Jumping; //오디오 클립이 점프소리를 읽음
+    public AudioClip audio_Jumping; //오디오 클립이 점프소리를 읽음
 
     public Image currentHealthbar;
     public Text ratioText;
@@ -69,7 +69,7 @@ public class PlayerControl : MonoBehaviour {
             {
                 jumping = true;
                 rb.AddForce(Vector3.up * J_P, ForceMode.VelocityChange); // 위쪽방향으로 J_P값만큼 점프한다.
-                this.audio_jump.clip = this.Jumping; // 오디오클립이 점프하는사운드를 읽음
+                this.audio_jump.clip = this.audio_Jumping; // 오디오클립이 점프하는사운드를 읽음
                 this.audio_jump.loop = false; // 반복재생 안함
                 this.audio_jump.Play(); // 점프할 때 만 사운드를 재생
             }
