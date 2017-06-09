@@ -7,11 +7,16 @@ public class PlayerControl : MonoBehaviour {
 
     private AudioSource audio_jump; // 오디오소스에 점프소리를 읽음
     public AudioClip audio_Jumping; //오디오 클립이 점프소리를 읽음
+    private AudioSource audio_Attack;
+    public AudioClip audio_Attacking;
+    private AudioSource audio_Create;
+    public AudioClip audio_Creating;
 
     public Image currentHealthbar;
     public Text ratioText;
 
 	public Canvas Menu;//인게임메뉴캔버스용
+	public Canvas SoundMenu;//사운드메뉴캔버스용
 
     Animator animator;
     Rigidbody rb;
@@ -41,6 +46,8 @@ public class PlayerControl : MonoBehaviour {
     void Start()
     {
         this.audio_jump = this.gameObject.AddComponent<AudioSource>();
+        this.audio_Attack = this.gameObject.AddComponent<AudioSource>();
+        this.audio_Create = this.gameObject.AddComponent<AudioSource>();
         health = 100.0f; // 체력
         maxhealth = 100.0f;
 
@@ -127,8 +134,10 @@ public class PlayerControl : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        Move(); 
+
+        Move();
         Jump();
+
         //죽을경우
         if (health <= 0)
         {
@@ -139,21 +148,24 @@ public class PlayerControl : MonoBehaviour {
         {
             health -= 2.0f;
             Invoke("CreateBoxFire", 1.2f); // 박스 생성지연 , 시간(1.0f초)
-            //GameObject BoxPosition = (GameObject)Instantiate (CreateBox); // Z키를 누르면 박스를 생성
-            //BoxPosition.transform.position = CreateBoxPosition.transform.position; 
-            //CreateBoxFire(); // 아래에 있음
+            this.audio_Create.clip = this.audio_Creating;
+            this.audio_Create.loop = false;
+            this.audio_Create.Play();
         }
 
         if (Input.GetKeyDown(KeyCode.X))
         {
-            Invoke("HeadingFire", 0.9f); // 헤딩 시 0.9f 뒤 HeadingFire 
+            Invoke("HeadingFire", 0.9f); // 헤딩 시 0.9f 뒤 HeadingFire
+            this.audio_Attack.clip = this.audio_Attacking;
+            this.audio_Attack.loop = false; 
+            this.audio_Attack.Play(); 
         }
 
-		if (Input.GetKeyDown(KeyCode.Escape))
-		{
-			Time.timeScale = 0;
-			Menu.enabled = true;
-		}
+//		if (Input.GetKeyDown(KeyCode.Escape))
+//		{
+//			Time.timeScale = 0;
+//			Menu.enabled = true;
+//		}
 
         UpdateHealthbar();
 
@@ -161,6 +173,11 @@ public class PlayerControl : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.R))
         {
             transform.Translate(new Vector3(40.0f, 20.0f, -0.6f));
+        }
+
+        if (Menu.enabled == true || SoundMenu.enabled == true) //메뉴진입시 못움직이게..
+        {
+            return;
         }
     }
 
