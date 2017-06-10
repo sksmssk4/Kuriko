@@ -1,0 +1,406 @@
+fileFormatVersion: 2
+guid: 97d96b7e400be42458416326c730ada2
+timeCreated: 1497041556
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: "\uC0AC\uC81C \uD3C9\uC0C1\uC2DC`_0"
+    21300002: "\uC0AC\uC81C \uD3C9\uC0C1\uC2DC`_1"
+    21300004: "\uC0AC\uC81C \uD3C9\uC0C1\uC2DC`_2"
+    21300006: "\uC0AC\uC81C \uD3C9\uC0C1\uC2DC`_3"
+    21300008: "\uC0AC\uC81C \uD3C9\uC0C1\uC2DC`_4"
+    21300010: L_Preist_wait1
+    21300012: "\uC0AC\uC81C \uD3C9\uC0C1\uC2DC`_6"
+    21300014: L_Preist_wait2
+    21300016: "\uC0AC\uC81C \uD3C9\uC0C1\uC2DC`_8"
+    21300018: L_Preist_wait3
+    21300020: "\uC0AC\uC81C \uD3C9\uC0C1\uC2DC`_10"
+    21300022: L_Preist_wait4
+    21300024: "\uC0AC\uC81C \uD3C9\uC0C1\uC2DC`_12"
+    21300026: L_Preist_wait5
+    21300028: "\uC0AC\uC81C \uD3C9\uC0C1\uC2DC`_14"
+    21300030: "\uC0AC\uC81C \uD3C9\uC0C1\uC2DC`_15"
+    21300032: "\uC0AC\uC81C \uD3C9\uC0C1\uC2DC`_16"
+    21300034: "\uC0AC\uC81C \uD3C9\uC0C1\uC2DC`_17"
+    21300036: "\uC0AC\uC81C \uD3C9\uC0C1\uC2DC`_18"
+    21300038: "\uC0AC\uC81C \uD3C9\uC0C1\uC2DC`_19"
+    21300040: "\uC0AC\uC81C \uD3C9\uC0C1\uC2DC`_20"
+    21300042: "\uC0AC\uC81C \uD3C9\uC0C1\uC2DC`_21"
+    21300044: "\uC0AC\uC81C \uD3C9\uC0C1\uC2DC`_22"
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "\uC0AC\uC81C \uD3C9\uC0C1\uC2DC`_0"
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 742
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC0AC\uC81C \uD3C9\uC0C1\uC2DC`_1"
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 742
+        width: 37
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC0AC\uC81C \uD3C9\uC0C1\uC2DC`_2"
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 742
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC0AC\uC81C \uD3C9\uC0C1\uC2DC`_3"
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 742
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC0AC\uC81C \uD3C9\uC0C1\uC2DC`_4"
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 742
+        width: 41
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: L_Preist_wait1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 37
+        width: 243
+        height: 656
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC0AC\uC81C \uD3C9\uC0C1\uC2DC`_6"
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 671
+        width: 65
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: L_Preist_wait2
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 37
+        width: 245
+        height: 653
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC0AC\uC81C \uD3C9\uC0C1\uC2DC`_8"
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 668
+        width: 65
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: L_Preist_wait3
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 37
+        width: 245
+        height: 653
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC0AC\uC81C \uD3C9\uC0C1\uC2DC`_10"
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 668
+        width: 65
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: L_Preist_wait4
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 37
+        width: 245
+        height: 653
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC0AC\uC81C \uD3C9\uC0C1\uC2DC`_12"
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 668
+        width: 65
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: L_Preist_wait5
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 36
+        width: 243
+        height: 656
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC0AC\uC81C \uD3C9\uC0C1\uC2DC`_14"
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 671
+        width: 65
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC0AC\uC81C \uD3C9\uC0C1\uC2DC`_15"
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 658
+        width: 59
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC0AC\uC81C \uD3C9\uC0C1\uC2DC`_16"
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 655
+        width: 35
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC0AC\uC81C \uD3C9\uC0C1\uC2DC`_17"
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 658
+        width: 27
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC0AC\uC81C \uD3C9\uC0C1\uC2DC`_18"
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 655
+        width: 35
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC0AC\uC81C \uD3C9\uC0C1\uC2DC`_19"
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 658
+        width: 27
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC0AC\uC81C \uD3C9\uC0C1\uC2DC`_20"
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 655
+        width: 35
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC0AC\uC81C \uD3C9\uC0C1\uC2DC`_21"
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 658
+        width: 27
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "\uC0AC\uC81C \uD3C9\uC0C1\uC2DC`_22"
+      rect:
+        serializedVersion: 2
+        x: 1588
+        y: 658
+        width: 13
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

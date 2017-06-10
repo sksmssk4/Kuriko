@@ -146,7 +146,7 @@ public class PlayerControl : MonoBehaviour {
         //Z키 누를시 박스생성 및 생성 지연시간 추가
         if (Input.GetKeyDown(KeyCode.Z))
         {
-            health -= 2.0f;
+            health -= 3.0f;
             Invoke("CreateBoxFire", 1.2f); // 박스 생성지연 , 시간(1.0f초)
             this.audio_Create.clip = this.audio_Creating;
             this.audio_Create.loop = false;
@@ -155,6 +155,7 @@ public class PlayerControl : MonoBehaviour {
 
         if (Input.GetKeyDown(KeyCode.X))
         {
+            health -= 2.0f;
             Invoke("HeadingFire", 0.9f); // 헤딩 시 0.9f 뒤 HeadingFire
             this.audio_Attack.clip = this.audio_Attacking;
             this.audio_Attack.loop = false; 
@@ -201,6 +202,14 @@ public class PlayerControl : MonoBehaviour {
             Invoke("Endure_Hit", 1);
         }
 
+        if (other.tag == "BossBullet")
+        {
+            health -= 15.0f;
+            Hit();
+            Death();
+            Invoke("Endure_Hit", 1);
+        }
+
         UpdateHealthbar();
     }
 
@@ -209,7 +218,7 @@ public class PlayerControl : MonoBehaviour {
     {
         if (other.tag == "Axe")
         {
-            health -= 0.2f;
+            health -= 2f;
             Hit();
             Death();
             Invoke("Endure_Hit",1);
@@ -218,7 +227,7 @@ public class PlayerControl : MonoBehaviour {
         
         if (other.tag == "BoggleBoggle")
         {
-            health -= 0.15f;
+            health -= 1f;
             Hit();
             Death();
             Invoke("Endure_Hit", 1);

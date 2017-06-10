@@ -9,14 +9,13 @@ public class Camera_Ctrl : MonoBehaviour {
     Vector3 ClampPosition;
     // Use this for initialization
     void Start () {
-        kuriko = GameObject.Find("KURIKO");
+        kuriko = GameObject.Find("KURIKO(1스테이지)");
 		
 	}
 	//카메라 위치 조정
-	void Update () {
-      
+	void Update () { 
         transform.position = new Vector3(Mathf.Clamp(kuriko.transform.position.x, -63.0f, 13.5f), // x축으로 -63.0f이하 12.8f이상 카메라 못움직이게
-            Mathf.Clamp(kuriko.transform.position.y, -28.5f, 0.0f) + 2.9f, kuriko.transform.position.z - 2.6f);
+            Mathf.Clamp(kuriko.transform.position.y, -28.5f, 10.0f) + 2.9f, kuriko.transform.position.z - 2.6f);
 
     }
 }
