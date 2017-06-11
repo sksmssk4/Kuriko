@@ -224,10 +224,18 @@ public class PlayerControl : MonoBehaviour {
             Invoke("Endure_Hit",1);
         }
 
-        
+        if (other.tag == "Preist")
+        {
+            health -= 5f;
+            Hit();
+            Death();
+            Invoke("Endure_Hit", 1);
+        }
+
+
         if (other.tag == "BoggleBoggle")
         {
-            health -= 1f;
+            health -= 0.5f;
             BoogleHit();
             Death();
             Invoke("Endure_Hit", 1);
@@ -256,11 +264,11 @@ public class PlayerControl : MonoBehaviour {
         {
             if (!facingright)
             {
-                transform.Translate(new Vector3(-7.0f, 0.0f, 0.0f)*Time.deltaTime * Speed);
+                transform.Translate(new Vector3(-4.0f, 0.0f, 0.0f)*Time.deltaTime * Speed);
             }
             else if (facingright)
             {
-                transform.Translate(new Vector3(7.0f, 0.0f, 0.0f) * Time.deltaTime * Speed);
+                transform.Translate(new Vector3(4.0f, 0.0f, 0.0f) * Time.deltaTime * Speed);
             }
         }
     }

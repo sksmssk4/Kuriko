@@ -16,7 +16,7 @@ public class BossStone : MonoBehaviour {
         if (up == true)
         {
             transform.Translate(new Vector3(0.0f, Speed * Time.deltaTime, 0.0f));
-            if (transform.position.y > 39.3f)
+            if (transform.position.y > 40.3f)
             {
                 up = false;
                 down = true;
@@ -28,7 +28,7 @@ public class BossStone : MonoBehaviour {
         if (down == true)
         {
             transform.Translate(new Vector3(0.0f, -Speed * Time.deltaTime, 0.0f));
-            if (transform.position.y < 26.0f)
+            if (transform.position.y < 28.0f)
             {
                 up = true;
                 down = false;

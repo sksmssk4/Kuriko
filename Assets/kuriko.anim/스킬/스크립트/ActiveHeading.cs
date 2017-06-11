@@ -13,6 +13,10 @@ public class ActiveHeading : MonoBehaviour
     private AudioSource audio_Achieve;
     public AudioClip audio_Achieving;
 
+
+    private AudioSource audio_bAchieve;
+    public AudioClip audio_bAchieving;
+
     bool death;
 
     public float HeadTimer = 0;
@@ -31,6 +35,7 @@ public class ActiveHeading : MonoBehaviour
     void Start()
     {
         this.audio_Achieve = this.gameObject.AddComponent<AudioSource>();
+        this.audio_bAchieve = this.gameObject.AddComponent<AudioSource>();
     }
 
     void Achieving()
@@ -38,6 +43,13 @@ public class ActiveHeading : MonoBehaviour
         this.audio_Achieve.clip = this.audio_Achieving;
         this.audio_Achieve.loop = false;
         this.audio_Achieve.Play();
+    }
+
+    void bAchieving()
+    {
+        this.audio_bAchieve.clip = this.audio_bAchieving;
+        this.audio_bAchieve.loop = false;
+        this.audio_bAchieve.Play();
     }
 
     // Update is called once per frame
@@ -68,6 +80,11 @@ public class ActiveHeading : MonoBehaviour
         if (other.tag == "Sujung" && Heading == true)
         {
             Invoke("Achieving", 0.8f);
+        }
+
+        if (other.tag == "BossSujung" && Heading == true)
+        {
+            Invoke("bAchieving", 0.8f);
         }
     }
 }

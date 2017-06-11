@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MovingStone2 : MonoBehaviour {
+public class BossStone2 : MonoBehaviour {
     public float Speed = 3.0f;
     bool up = true;
     bool down = false;
@@ -16,7 +16,7 @@ public class MovingStone2 : MonoBehaviour {
         if (up == true)
         {
             transform.Translate(new Vector3(0.0f, Speed * Time.deltaTime, 0.0f));
-            if (transform.position.y > 25.5f)
+            if (transform.position.y > 28.3f)
             {
                 up = false;
                 down = true;
@@ -28,7 +28,7 @@ public class MovingStone2 : MonoBehaviour {
         if (down == true)
         {
             transform.Translate(new Vector3(0.0f, -Speed * Time.deltaTime, 0.0f));
-            if (transform.position.y < 9.5f)
+            if (transform.position.y < 17.0f)
             {
                 up = true;
                 down = false;

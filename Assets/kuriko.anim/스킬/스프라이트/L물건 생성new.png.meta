@@ -1,30 +1,33 @@
 fileFormatVersion: 2
-guid: 865353a18a6d25a4ab0118a0ee4d836d
-timeCreated: 1495980086
+guid: 997e67cec6532d646abdc94d16e421b4
+timeCreated: 1497175255
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: nothing
-    21300002: "R\uBB3C\uAC74 \uC0DD\uC131 \uC2A4\uD504\uB77C\uC774\uD2B8 `_1"
-    21300004: "R\uBB3C\uAC74 \uC0DD\uC131 \uC2A4\uD504\uB77C\uC774\uD2B8 `_2"
-    21300006: "R\uBB3C\uAC74 \uC0DD\uC131 \uC2A4\uD504\uB77C\uC774\uD2B8 `_3"
-    21300008: "R\uBB3C\uAC74 \uC0DD\uC131 \uC2A4\uD504\uB77C\uC774\uD2B8 `_4"
-    21300010: "R\uBB3C\uAC74 \uC0DD\uC131 \uC2A4\uD504\uB77C\uC774\uD2B8 `_5"
-    21300012: "R\uBB3C\uAC74 \uC0DD\uC131 \uC2A4\uD504\uB77C\uC774\uD2B8 `_6"
-    21300014: "R\uBB3C\uAC74 \uC0DD\uC131 \uC2A4\uD504\uB77C\uC774\uD2B8 `_7"
-    21300016: R_Create12
-    21300018: "R\uBB3C\uAC74 \uC0DD\uC131 \uC2A4\uD504\uB77C\uC774\uD2B8 `_9"
-    21300020: R_Create1
-    21300022: R_Create2
-    21300024: R_Create3
-    21300026: R_Create4
-    21300028: R_Create5
-    21300030: R_Create6
-    21300032: R_Create7
-    21300034: R_Create8
-    21300036: R_Create9
-    21300038: R_Create10
-    21300040: R_Create11
+    21300000: "L\uBB3C\uAC74 \uC0DD\uC131new_0"
+    21300002: "L\uBB3C\uAC74 \uC0DD\uC131new_1"
+    21300004: "L\uBB3C\uAC74 \uC0DD\uC131new_2"
+    21300006: "L\uBB3C\uAC74 \uC0DD\uC131new_3"
+    21300008: "L\uBB3C\uAC74 \uC0DD\uC131new_4"
+    21300010: "L\uBB3C\uAC74 \uC0DD\uC131new_5"
+    21300012: "L\uBB3C\uAC74 \uC0DD\uC131new_6"
+    21300014: "L\uBB3C\uAC74 \uC0DD\uC131new_7"
+    21300016: "L\uBB3C\uAC74 \uC0DD\uC1311"
+    21300018: "L\uBB3C\uAC74 \uC0DD\uC1312"
+    21300020: "L\uBB3C\uAC74 \uC0DD\uC1313"
+    21300022: "L\uBB3C\uAC74 \uC0DD\uC1314"
+    21300024: "L\uBB3C\uAC74 \uC0DD\uC1315"
+    21300026: "L\uBB3C\uAC74 \uC0DD\uC1316"
+    21300028: "L\uBB3C\uAC74 \uC0DD\uC1317"
+    21300030: "L\uBB3C\uAC74 \uC0DD\uC1318"
+    21300032: "L\uBB3C\uAC74 \uC0DD\uC1319"
+    21300034: "L\uBB3C\uAC74 \uC0DD\uC13110"
+    21300036: "L\uBB3C\uAC74 \uC0DD\uC13111"
+    21300038: "L\uBB3C\uAC74 \uC0DD\uC13112"
+    21300040: "L\uBB3C\uAC74 \uC0DD\uC131new_20"
+    21300042: "L\uBB3C\uAC74 \uC0DD\uC131new_21"
+    21300044: "L\uBB3C\uAC74 \uC0DD\uC131new_22"
+    21300046: "L\uBB3C\uAC74 \uC0DD\uC131new_23"
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -87,128 +90,146 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-  - buildTarget: Android
-    maxTextureSize: 2048
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: nothing
+      name: "L\uBB3C\uAC74 \uC0DD\uC131new_0"
       rect:
         serializedVersion: 2
-        x: 129
-        y: 720
-        width: 88
-        height: 105
+        x: 125
+        y: 755
+        width: 85
+        height: 101
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: "R\uBB3C\uAC74 \uC0DD\uC131 \uC2A4\uD504\uB77C\uC774\uD2B8 `_1"
+      name: "L\uBB3C\uAC74 \uC0DD\uC131new_1"
       rect:
         serializedVersion: 2
-        x: 296
-        y: 720
-        width: 59
-        height: 105
+        x: 295
+        y: 755
+        width: 56
+        height: 101
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: "R\uBB3C\uAC74 \uC0DD\uC131 \uC2A4\uD504\uB77C\uC774\uD2B8 `_2"
+      name: "L\uBB3C\uAC74 \uC0DD\uC131new_2"
       rect:
         serializedVersion: 2
-        x: 547
-        y: 720
-        width: 66
-        height: 105
+        x: 549
+        y: 755
+        width: 65
+        height: 101
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: "R\uBB3C\uAC74 \uC0DD\uC131 \uC2A4\uD504\uB77C\uC774\uD2B8 `_3"
+      name: "L\uBB3C\uAC74 \uC0DD\uC131new_3"
       rect:
         serializedVersion: 2
-        x: 623
-        y: 802
-        width: 19
-        height: 23
+        x: 622
+        y: 836
+        width: 20
+        height: 20
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: "R\uBB3C\uAC74 \uC0DD\uC131 \uC2A4\uD504\uB77C\uC774\uD2B8 `_4"
+      name: "L\uBB3C\uAC74 \uC0DD\uC131new_4"
       rect:
         serializedVersion: 2
-        x: 221
-        y: 720
-        width: 68
-        height: 79
+        x: 222
+        y: 755
+        width: 69
+        height: 77
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: "R\uBB3C\uAC74 \uC0DD\uC131 \uC2A4\uD504\uB77C\uC774\uD2B8 `_5"
+      name: "L\uBB3C\uAC74 \uC0DD\uC131new_5"
       rect:
         serializedVersion: 2
         x: 355
-        y: 720
+        y: 755
         width: 65
-        height: 79
+        height: 77
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: "R\uBB3C\uAC74 \uC0DD\uC131 \uC2A4\uD504\uB77C\uC774\uD2B8 `_6"
+      name: "L\uBB3C\uAC74 \uC0DD\uC131new_6"
       rect:
         serializedVersion: 2
-        x: 469
-        y: 720
+        x: 468
+        y: 755
         width: 69
-        height: 79
+        height: 77
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: "R\uBB3C\uAC74 \uC0DD\uC131 \uC2A4\uD504\uB77C\uC774\uD2B8 `_7"
+      name: "L\uBB3C\uAC74 \uC0DD\uC131new_7"
       rect:
         serializedVersion: 2
-        x: 613
-        y: 707
-        width: 26
-        height: 92
+        x: 614
+        y: 739
+        width: 24
+        height: 93
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: R_Create12
+      name: "L\uBB3C\uAC74 \uC0DD\uC1311"
       rect:
         serializedVersion: 2
-        x: 6187
+        x: 69
+        y: 121
+        width: 492
+        height: 598
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "L\uBB3C\uAC74 \uC0DD\uC1312"
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 125
+        width: 448
+        height: 573
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "L\uBB3C\uAC74 \uC0DD\uC1313"
+      rect:
+        serializedVersion: 2
+        x: 1312
         y: 97
-        width: 493
+        width: 529
         height: 589
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -216,158 +237,171 @@ TextureImporter:
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: "R\uBB3C\uAC74 \uC0DD\uC131 \uC2A4\uD504\uB77C\uC774\uD2B8 `_9"
+      name: "L\uBB3C\uAC74 \uC0DD\uC1314"
       rect:
         serializedVersion: 2
-        x: 6327
-        y: 676
-        width: 36
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: R_Create1
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 103
-        width: 450
-        height: 571
+        x: 1998
+        y: 89
+        width: 501
+        height: 609
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: R_Create2
+      name: "L\uBB3C\uAC74 \uC0DD\uC1315"
       rect:
         serializedVersion: 2
-        x: 689
-        y: 74
-        width: 491
-        height: 586
-      alignment: 9
-      pivot: {x: 0.5, y: 0.07254854}
+        x: 2677
+        y: 97
+        width: 488
+        height: 585
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: R_Create3
+      name: "L\uBB3C\uAC74 \uC0DD\uC1316"
       rect:
         serializedVersion: 2
-        x: 1179
-        y: 74
-        width: 555
-        height: 586
-      alignment: 9
-      pivot: {x: 0.5, y: 0.07}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: R_Create4
-      rect:
-        serializedVersion: 2
-        x: 1716
-        y: 74
-        width: 611
-        height: 586
-      alignment: 9
-      pivot: {x: 0.5, y: 0.07}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: R_Create5
-      rect:
-        serializedVersion: 2
-        x: 2291
-        y: 74
-        width: 660
-        height: 586
-      alignment: 9
-      pivot: {x: 0.5, y: 0.07}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: R_Create6
-      rect:
-        serializedVersion: 2
-        x: 2960
-        y: 74
-        width: 610
-        height: 586
-      alignment: 9
-      pivot: {x: 0.5, y: 0.07}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: R_Create7
-      rect:
-        serializedVersion: 2
-        x: 3549
-        y: 74
+        x: 3310
+        y: 97
         width: 554
-        height: 586
-      alignment: 9
-      pivot: {x: 0.5, y: 0.07}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: R_Create8
-      rect:
-        serializedVersion: 2
-        x: 4064
-        y: 74
-        width: 492
-        height: 586
-      alignment: 9
-      pivot: {x: 0.5, y: 0.07}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: R_Create9
-      rect:
-        serializedVersion: 2
-        x: 4579
-        y: 68
-        width: 500
-        height: 606
-      alignment: 9
-      pivot: {x: 0.5, y: 0.07}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: R_Create10
-      rect:
-        serializedVersion: 2
-        x: 5133
-        y: 75
-        width: 527
-        height: 588
-      alignment: 9
-      pivot: {x: 0.5, y: 0.07}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: R_Create11
-      rect:
-        serializedVersion: 2
-        x: 5698
-        y: 103
-        width: 451
-        height: 571
+        height: 585
       alignment: 7
       pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "L\uBB3C\uAC74 \uC0DD\uC1317"
+      rect:
+        serializedVersion: 2
+        x: 4009
+        y: 89
+        width: 609
+        height: 585
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "L\uBB3C\uAC74 \uC0DD\uC1318"
+      rect:
+        serializedVersion: 2
+        x: 4776
+        y: 97
+        width: 658
+        height: 585
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "L\uBB3C\uAC74 \uC0DD\uC1319"
+      rect:
+        serializedVersion: 2
+        x: 5599
+        y: 97
+        width: 610
+        height: 585
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "L\uBB3C\uAC74 \uC0DD\uC13110"
+      rect:
+        serializedVersion: 2
+        x: 6391
+        y: 97
+        width: 553
+        height: 585
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "L\uBB3C\uAC74 \uC0DD\uC13111"
+      rect:
+        serializedVersion: 2
+        x: 7057
+        y: 97
+        width: 492
+        height: 585
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "L\uBB3C\uAC74 \uC0DD\uC13112"
+      rect:
+        serializedVersion: 2
+        x: 7699
+        y: 125
+        width: 448
+        height: 573
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "L\uBB3C\uAC74 \uC0DD\uC131new_20"
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 0
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "L\uBB3C\uAC74 \uC0DD\uC131new_21"
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 0
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "L\uBB3C\uAC74 \uC0DD\uC131new_22"
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 0
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: "L\uBB3C\uAC74 \uC0DD\uC131new_23"
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       tessellationDetail: 0
