@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class MovingStone1 : MonoBehaviour {
+    public float Speed = 3.0f;
     bool up = true;
     bool down = false;
 	// Use this for initialization
@@ -13,8 +14,8 @@ public class MovingStone1 : MonoBehaviour {
     {
         if (up == true)
         {
-            transform.Translate(new Vector3(0.0f, 0.05f, 0.0f));
-            if (transform.position.y > 4.6)
+            transform.Translate(new Vector3(0.0f, Speed * Time.deltaTime, 0.0f));
+            if (transform.position.y > 5.3f)
             {
                 up = false;
                 down = true;
@@ -25,8 +26,8 @@ public class MovingStone1 : MonoBehaviour {
     {
         if (down == true)
         {
-            transform.Translate(new Vector3(0.0f, -0.05f, 0.0f));
-            if (transform.position.y < -7.9)
+            transform.Translate(new Vector3(0.0f, -Speed * Time.deltaTime, 0.0f));
+            if (transform.position.y < -7.0f)
             {
                 up = true;
                 down = false;

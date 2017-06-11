@@ -1,9 +1,80 @@
 fileFormatVersion: 2
 guid: 230610c707e364949931800f19e29931
-timeCreated: 1497013491
+timeCreated: 1497103482
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: BossSujungRight_0
+    21300002: BossSujungRight_1
+    21300004: BossSujungRight_2
+    21300006: BossSujungRight_3
+    21300008: BossSujungRight_4
+    21300010: BossSujungRight_5
+    21300012: BossSujungRight__10
+    21300014: BossSujungRight__11
+    21300016: BossSujungRight_8
+    21300018: BossSujungRight_9
+    21300020: BossSujungRight_10
+    21300022: BossSujungRight_11
+    21300024: BossSujungRight_12
+    21300026: BossSujungRight_13
+    21300028: BossSujungRight_14
+    21300030: BossSujungRight__1
+    21300032: BossSujungRight__2
+    21300034: BossSujungRight__3
+    21300036: BossSujungRight__4
+    21300038: BossSujungRight__5
+    21300040: BossSujungRight__6
+    21300042: BossSujungRight__7
+    21300044: BossSujungRight__8
+    21300046: BossSujungRight__9
+    21300048: BossSujungRight_24
+    21300050: BossSujungRight_25
+    21300052: BossSujungRight_26
+    21300054: BossSujungRight_27
+    21300056: BossSujungRight_28
+    21300058: BossSujungRight_29
+    21300060: BossSujungRight_30
+    21300062: BossSujungRight_31
+    21300064: BossSujungRight_32
+    21300066: BossSujungRight_33
+    21300068: BossSujungRight_34
+    21300070: BossSujungRight__12
+    21300072: BossSujungRight_36
+    21300074: BossSujungRight_37
+    21300076: BossSujungRight_38
+    21300078: BossSujungRight_39
+    21300080: BossSujungRight_40
+    21300082: BossSujungRight_41
+    21300084: BossSujungRight_42
+    21300086: BossSujungRight_43
+    21300088: BossSujungRight_44
+    21300090: BossSujungRight_45
+    21300092: BossSujungRight_46
+    21300094: BossSujungRight_47
+    21300096: BossSujungRight_48
+    21300098: BossSujungRight__13
+    21300100: BossSujungRight_50
+    21300102: BossSujungRight_51
+    21300104: BossSujungRight_52
+    21300106: BossSujungRight__14
+    21300108: BossSujungRight_54
+    21300110: BossSujungRight_55
+    21300112: BossSujungRight_56
+    21300114: BossSujungRight_57
+    21300116: BossSujungRight_58
+    21300118: BossSujungRight_59
+    21300120: BossSujungRight_60
+    21300122: BossSujungRight_61
+    21300124: BossSujungRight_62
+    21300126: BossSujungRight_63
+    21300128: BossSujungRight_64
+    21300130: BossSujungRight_65
+    21300132: BossSujungRight_66
+    21300134: BossSujungRight_67
+    21300136: BossSujungRight_68
+    21300138: BossSujungRight_69
+    21300140: BossSujungRight_70
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -68,7 +139,930 @@ TextureImporter:
     overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: BossSujungRight_0
+      rect:
+        serializedVersion: 2
+        x: 3398
+        y: 550
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_1
+      rect:
+        serializedVersion: 2
+        x: 3790
+        y: 550
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_2
+      rect:
+        serializedVersion: 2
+        x: 4184
+        y: 550
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_3
+      rect:
+        serializedVersion: 2
+        x: 4563
+        y: 550
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_4
+      rect:
+        serializedVersion: 2
+        x: 4979
+        y: 550
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_5
+      rect:
+        serializedVersion: 2
+        x: 2726
+        y: 528
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight__10
+      rect:
+        serializedVersion: 2
+        x: 3044
+        y: 198
+        width: 364
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight__11
+      rect:
+        serializedVersion: 2
+        x: 3412
+        y: 164
+        width: 403
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_8
+      rect:
+        serializedVersion: 2
+        x: 3676
+        y: 461
+        width: 47
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_9
+      rect:
+        serializedVersion: 2
+        x: 3971
+        y: 436
+        width: 59
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_10
+      rect:
+        serializedVersion: 2
+        x: 4065
+        y: 461
+        width: 52
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_11
+      rect:
+        serializedVersion: 2
+        x: 4350
+        y: 456
+        width: 59
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_12
+      rect:
+        serializedVersion: 2
+        x: 4449
+        y: 461
+        width: 47
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_13
+      rect:
+        serializedVersion: 2
+        x: 4769
+        y: 456
+        width: 54
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_14
+      rect:
+        serializedVersion: 2
+        x: 4865
+        y: 461
+        width: 52
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight__1
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 198
+        width: 308
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight__2
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 198
+        width: 305
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight__3
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 198
+        width: 307
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight__4
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 200
+        width: 307
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight__5
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 201
+        width: 308
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight__6
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 198
+        width: 309
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight__7
+      rect:
+        serializedVersion: 2
+        x: 2047
+        y: 201
+        width: 308
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight__8
+      rect:
+        serializedVersion: 2
+        x: 2360
+        y: 201
+        width: 312
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight__9
+      rect:
+        serializedVersion: 2
+        x: 2687
+        y: 198
+        width: 342
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_24
+      rect:
+        serializedVersion: 2
+        x: 3519
+        y: 461
+        width: 43
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_25
+      rect:
+        serializedVersion: 2
+        x: 3914
+        y: 461
+        width: 42
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_26
+      rect:
+        serializedVersion: 2
+        x: 4033
+        y: 493
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_27
+      rect:
+        serializedVersion: 2
+        x: 4293
+        y: 461
+        width: 42
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_28
+      rect:
+        serializedVersion: 2
+        x: 4412
+        y: 493
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_29
+      rect:
+        serializedVersion: 2
+        x: 4709
+        y: 461
+        width: 42
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_30
+      rect:
+        serializedVersion: 2
+        x: 4823
+        y: 491
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_31
+      rect:
+        serializedVersion: 2
+        x: 4831
+        y: 493
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_32
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 466
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_33
+      rect:
+        serializedVersion: 2
+        x: 3455
+        y: 404
+        width: 60
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_34
+      rect:
+        serializedVersion: 2
+        x: 3705
+        y: 399
+        width: 82
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight__12
+      rect:
+        serializedVersion: 2
+        x: 3820
+        y: 188
+        width: 383
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_36
+      rect:
+        serializedVersion: 2
+        x: 3951
+        y: 444
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_37
+      rect:
+        serializedVersion: 2
+        x: 4228
+        y: 404
+        width: 57
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_38
+      rect:
+        serializedVersion: 2
+        x: 4300
+        y: 414
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_39
+      rect:
+        serializedVersion: 2
+        x: 4335
+        y: 444
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_40
+      rect:
+        serializedVersion: 2
+        x: 4479
+        y: 399
+        width: 74
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_41
+      rect:
+        serializedVersion: 2
+        x: 4645
+        y: 404
+        width: 57
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_42
+      rect:
+        serializedVersion: 2
+        x: 4717
+        y: 414
+        width: 27
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_43
+      rect:
+        serializedVersion: 2
+        x: 4749
+        y: 444
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_44
+      rect:
+        serializedVersion: 2
+        x: 4895
+        y: 399
+        width: 77
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_45
+      rect:
+        serializedVersion: 2
+        x: 3440
+        y: 332
+        width: 79
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_46
+      rect:
+        serializedVersion: 2
+        x: 3715
+        y: 315
+        width: 85
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_47
+      rect:
+        serializedVersion: 2
+        x: 3832
+        y: 335
+        width: 77
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_48
+      rect:
+        serializedVersion: 2
+        x: 4211
+        y: 335
+        width: 82
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight__13
+      rect:
+        serializedVersion: 2
+        x: 4201
+        y: 182
+        width: 381
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_50
+      rect:
+        serializedVersion: 2
+        x: 4459
+        y: 335
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_51
+      rect:
+        serializedVersion: 2
+        x: 4486
+        y: 315
+        width: 87
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_52
+      rect:
+        serializedVersion: 2
+        x: 4630
+        y: 335
+        width: 74
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight__14
+      rect:
+        serializedVersion: 2
+        x: 4602
+        y: 171
+        width: 404
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_54
+      rect:
+        serializedVersion: 2
+        x: 4878
+        y: 335
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_55
+      rect:
+        serializedVersion: 2
+        x: 4905
+        y: 315
+        width: 84
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_56
+      rect:
+        serializedVersion: 2
+        x: 3111
+        y: 196
+        width: 57
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_57
+      rect:
+        serializedVersion: 2
+        x: 3249
+        y: 188
+        width: 70
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_58
+      rect:
+        serializedVersion: 2
+        x: 3448
+        y: 263
+        width: 76
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_59
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 196
+        width: 59
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_60
+      rect:
+        serializedVersion: 2
+        x: 3715
+        y: 250
+        width: 65
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_61
+      rect:
+        serializedVersion: 2
+        x: 4218
+        y: 263
+        width: 77
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_62
+      rect:
+        serializedVersion: 2
+        x: 4412
+        y: 188
+        width: 139
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_63
+      rect:
+        serializedVersion: 2
+        x: 4637
+        y: 258
+        width: 75
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_64
+      rect:
+        serializedVersion: 2
+        x: 4828
+        y: 188
+        width: 72
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_65
+      rect:
+        serializedVersion: 2
+        x: 4903
+        y: 250
+        width: 66
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_66
+      rect:
+        serializedVersion: 2
+        x: 3638
+        y: 188
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_67
+      rect:
+        serializedVersion: 2
+        x: 4273
+        y: 196
+        width: 59
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_68
+      rect:
+        serializedVersion: 2
+        x: 4692
+        y: 196
+        width: 54
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_69
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 104
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BossSujungRight_70
+      rect:
+        serializedVersion: 2
+        x: 4895
+        y: 104
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 

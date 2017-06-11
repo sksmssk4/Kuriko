@@ -12,7 +12,7 @@ public class MovingStone : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         if(transform.position.y < -19.61)
-            transform.Translate(new Vector3(0.0f, 0.05f, 0.0f));
+            transform.Translate(new Vector3(0.0f, 3f * Time.deltaTime, 0.0f));
 
     }
 }

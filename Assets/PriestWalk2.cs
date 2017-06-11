@@ -5,7 +5,7 @@ using UnityEngine;
 public class PriestWalk2 : MonoBehaviour {
     Animator animator;
 
-    float pdirectionX = 0;
+    float pdirectionX;
     bool pwalking = false;
 
     void Start()
@@ -17,13 +17,13 @@ public class PriestWalk2 : MonoBehaviour {
     {
         if (animator)
         {
-            if (transform.position.x < -69.0f)
+            if (transform.position.x < -76.3f)
             {
-                pdirectionX = 0.05f;
+                pdirectionX = 5.0f;
             }
-            else if (transform.position.x > -56.0f)
+            else if (transform.position.x > -59.2f)
             {
-                pdirectionX = -0.05f;
+                pdirectionX = -5.0f;
             }
             if (transform.position.x == -10.6f) // 프리스트 대기 실패
             {
@@ -35,7 +35,7 @@ public class PriestWalk2 : MonoBehaviour {
             }
             if (pwalking = true)
             {
-                transform.Translate(new Vector3(pdirectionX, 0.0f, 0.0f));
+                transform.Translate(new Vector3(pdirectionX * Time.deltaTime, 0.0f, 0.0f));
             }
 
             animator.SetFloat("DirectionX", pdirectionX);

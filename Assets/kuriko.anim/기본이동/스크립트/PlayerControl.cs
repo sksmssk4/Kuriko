@@ -11,12 +11,16 @@ public class PlayerControl : MonoBehaviour {
     public AudioClip audio_Attacking;
     private AudioSource audio_Create;
     public AudioClip audio_Creating;
+    private AudioSource audio_Hit;
+    public AudioClip audio_Hiting;
 
     public Image currentHealthbar;
     public Text ratioText;
 
 	public Canvas Menu;//인게임메뉴캔버스용
 	public Canvas SoundMenu;//사운드메뉴캔버스용
+	public Canvas GGMenu;//게임오버메뉴캔버스용
+	public AudioSource bgm;//사망후브금정지시키려고
 
     Animator animator;
     Rigidbody rb;
@@ -48,6 +52,7 @@ public class PlayerControl : MonoBehaviour {
         this.audio_jump = this.gameObject.AddComponent<AudioSource>();
         this.audio_Attack = this.gameObject.AddComponent<AudioSource>();
         this.audio_Create = this.gameObject.AddComponent<AudioSource>();
+        this.audio_Hit = this.gameObject.AddComponent<AudioSource>();
         health = 100.0f; // 체력
         maxhealth = 100.0f;
 
@@ -106,14 +111,11 @@ public class PlayerControl : MonoBehaviour {
                 {
                     directionX = 1;
                     facingright = true;
-
-
                 }
                 else if (h < 0)
                 {
                     directionX = -1;
                     facingright = false;
-
                 }
                 else
                 {
@@ -123,7 +125,6 @@ public class PlayerControl : MonoBehaviour {
                 if (walking)
                 {
                     transform.Translate(new Vector3(directionX, 0.0f, 0.0f) * Time.deltaTime * Speed);
-                    //transform.localScale = new Vector3(0.5f * directionX, 0.5f, 1.0f);
                 }
                 animator.SetFloat("DirectionX", directionX);
                 animator.SetBool("Walking", walking);
@@ -146,7 +147,7 @@ public class PlayerControl : MonoBehaviour {
         //Z키 누를시 박스생성 및 생성 지연시간 추가
         if (Input.GetKeyDown(KeyCode.Z))
         {
-            health -= 3.0f;
+            health -= 4.0f;
             Invoke("CreateBoxFire", 1.2f); // 박스 생성지연 , 시간(1.0f초)
             this.audio_Create.clip = this.audio_Creating;
             this.audio_Create.loop = false;
@@ -155,7 +156,6 @@ public class PlayerControl : MonoBehaviour {
 
         if (Input.GetKeyDown(KeyCode.X))
         {
-            health -= 2.0f;
             Invoke("HeadingFire", 0.9f); // 헤딩 시 0.9f 뒤 HeadingFire
             this.audio_Attack.clip = this.audio_Attacking;
             this.audio_Attack.loop = false; 
@@ -228,7 +228,7 @@ public class PlayerControl : MonoBehaviour {
         if (other.tag == "BoggleBoggle")
         {
             health -= 1f;
-            Hit();
+            BoogleHit();
             Death();
             Invoke("Endure_Hit", 1);
         }
@@ -296,10 +296,22 @@ public class PlayerControl : MonoBehaviour {
 
     //히트함수
 
+    void BoogleHit()
+    {
+        hit = true;
+        animator.SetBool("Hits", true);
+        this.audio_Hit.clip = this.audio_Hiting;
+        this.audio_Hit.loop = false;
+        this.audio_Hit.Play();
+
+    }
     void Hit()
     { 
         hit = true;
         animator.SetBool("Hits", true);
+        this.audio_Hit.clip = this.audio_Hiting;
+        this.audio_Hit.loop = false;
+        this.audio_Hit.Play();
         if (!facingright)
         {
             transform.Translate(new Vector3(5.0f, 0.0f, 0.0f) * Time.deltaTime * Speed);
@@ -329,7 +341,8 @@ public class PlayerControl : MonoBehaviour {
 
 	void Gogameover()
 	{
-		SceneManager.LoadScene ("Gameover");
+		GGMenu.enabled = true;
+		bgm.Stop ();
 	}
 
     void UpdateHealthbar()

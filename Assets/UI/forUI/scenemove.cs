@@ -21,6 +21,12 @@ public class scenemove : MonoBehaviour {
 
 	}
 
+	public void ChangeGameScene_stage02()
+	{
+		SceneManager.LoadScene ("Stage22");
+
+	}
+
 	public void ChangeGameScene_seclect()
 	{
 		SceneManager.LoadScene ("select");
