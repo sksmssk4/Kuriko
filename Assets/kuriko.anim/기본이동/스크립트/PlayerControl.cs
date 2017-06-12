@@ -20,6 +20,7 @@ public class PlayerControl : MonoBehaviour {
 	public Canvas Menu;//인게임메뉴캔버스용
 	public Canvas SoundMenu;//사운드메뉴캔버스용
 	public Canvas GGMenu;//게임오버메뉴캔버스용
+	public Canvas back;//다이얼로그캔버스용
 	public AudioSource bgm;//사망후브금정지시키려고
 
     Animator animator;
@@ -73,7 +74,7 @@ public class PlayerControl : MonoBehaviour {
 
         // 죽었을때 or 'Active, Heading'라는 애니메이션이 애니메이터에서 작동될때 동작정지 (스킬 사용 동안 점프불가)
         if (death == true || animator.GetCurrentAnimatorStateInfo(0).nameHash == Animator.StringToHash("Base Layer.Active")
-            || animator.GetCurrentAnimatorStateInfo(0).nameHash == Animator.StringToHash("Base Layer.Heading"))
+			|| animator.GetCurrentAnimatorStateInfo(0).nameHash == Animator.StringToHash("Base Layer.Heading")||back.enabled==true)
             return;
         else // 아닐 때
         {
@@ -135,6 +136,10 @@ public class PlayerControl : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
+		if (Menu.enabled == true || SoundMenu.enabled == true) //메뉴진입시 못움직이게..
+		{
+			return;
+		}
 
         Move();
         Jump();
@@ -176,10 +181,7 @@ public class PlayerControl : MonoBehaviour {
             transform.Translate(new Vector3(40.0f, 20.0f, -0.6f));
         }
 
-        if (Menu.enabled == true || SoundMenu.enabled == true) //메뉴진입시 못움직이게..
-        {
-            return;
-        }
+        
     }
 
     //진입시
@@ -218,7 +220,7 @@ public class PlayerControl : MonoBehaviour {
     {
         if (other.tag == "Axe")
         {
-            health -= 2f;
+            health -= 4f;
             Hit();
             Death();
             Invoke("Endure_Hit",1);
@@ -244,7 +246,7 @@ public class PlayerControl : MonoBehaviour {
 
         if (other.tag == "Hand")
         {
-            health -= 0.1f;
+            health -= 0.5f;
             Hit();
             Death();
             Invoke("Endure_Hit", 1);

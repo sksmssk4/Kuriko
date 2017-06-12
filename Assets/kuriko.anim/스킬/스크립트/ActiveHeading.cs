@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ActiveHeading : MonoBehaviour
 {
@@ -86,5 +87,16 @@ public class ActiveHeading : MonoBehaviour
         {
             Invoke("bAchieving", 0.8f);
         }
+
+        if (other.tag == "ClearSujung" && Heading == true)
+        {
+            Invoke("goclear", 3.5f);
+
+        }
+    }
+
+    void goclear()
+    {
+        SceneManager.LoadScene("clear02");
     }
 }
